@@ -2,6 +2,7 @@
 
 CinePlux is a secure, responsive, full-stack Movie and TV Show Watchlist application built with Django REST Framework and React (Vite). The application enforces strict data isolation, secure authentication, and interactive ratings under a modern cyberpunk glassmorphism visual layout.
 
+PROJECT NO 8 : MOVIE/SHOW TIME
 ---
 
 ## 📖 About The Project
