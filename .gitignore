@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+media_app/migrations/0002_*
+media_app/migrations/0003_*
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Agent Scratch / Config
+.gemini/
+.agents/
+.oxlintrc.json
+*.log
+*.webp
+*.png
+scratch/
+browser/
+task.md
+walkthrough.md
+implementation_plan.md
