@@ -180,6 +180,9 @@ This project was developed as part of the IPlus Training program at Christ Colle
 
 
 ## 👤 Author
-**G Varun**  
+
+**G Varun**
+
 *S3 CS-C*
+
 *BTech CSE Student at Christ College of Engineering*
