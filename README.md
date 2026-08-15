@@ -6,7 +6,7 @@ CinePlux is a secure, responsive, full-stack Movie and TV Show Watchlist applica
 
 ## 📖 About The Project
 
-CinePlux provides users with a private dashboard to track movies and TV shows they plan to watch or have already watched. Designed for speed, security, and aesthetics, it implements full JSON Web Token (JWT) rotation on the client and server, features instant client-side searching, and integrates database-level user isolation to ensure data privacy.
+CinePlux provides users with a private dashboard to track movies and TV shows they plan to watch or have already watched. Designed for speed, security, and aesthetics, it implements full JSON Web Token (JWT) refresh on the client and server, features instant client-side searching, and integrates user-scoped API data isolation.
 
 ---
 
