@@ -174,6 +174,11 @@ CinePlux/
 
 ---
 
+## License
+
+This project was developed as part of the IPlus Training program at Christ College of Engineering for academic purposes.
+
+
 ## 👤 Author
 **G Varun**  
 *BTech CSE Student at Christ College of Engineering*
