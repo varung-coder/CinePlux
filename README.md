@@ -1,8 +1,6 @@
-# CinePlux 🎬 — Premium Movie & Show Watchlist
+# CinePlux 🎬 — Premium Movie & Show Watchlist (Project No 8: Movie/ Show WatchList) 
 
-CinePlux is a secure, responsive, full-stack Movie and TV Show Watchlist application built with Django REST Framework and React (Vite). The application enforces strict data isolation, secure authentication, and interactive ratings under a modern cyberpunk glassmorphism visual layout.
-
-PROJECT NO 8 : MOVIE/SHOW TIME
+CinePlux is a secure, responsive, full-stack Movie and TV Show Watchlist application built with Django REST Framework and React (Vite). The application enforces strict data isolation, secure authentication, and interactive ratings under a modern cyberpunk glassmorphism visual layout. 
 ---
 
 ## 📖 About The Project
