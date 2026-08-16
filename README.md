@@ -10,6 +10,9 @@ CinePlux provides users with a private dashboard to track movies and TV shows th
 
 ---
 
+## LIVE DEMO : https://cine-plux.vercel.app/  
+Successfully deployed the Frontend on Vercel and Backend on Render
+
 ## 🛠️ Tech Stack
 
 ### Backend
