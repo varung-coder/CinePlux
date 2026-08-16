@@ -172,6 +172,40 @@ CinePlux/
    ```
    The application UI will run on `http://localhost:5173/`.
 
+
+---
+
+## 🚀 Production Deployment
+
+### Frontend (Vercel)
+- React/Vite frontend is deployed on **Vercel** at `https://cine-plux.vercel.app`.
+- The frontend Axios instance communicates with the backend URL configured during building (in `src/api/axios.js`).
+
+### Backend (Render)
+- Django backend is configured for deployment on **Render** (Web Service).
+- **Database**: Supports persistent PostgreSQL. If Render PostgreSQL is attached, `DATABASE_URL` is automatically detected and used; otherwise, the app falls back to local SQLite.
+- **Static Files**: Serves Django admin static assets cleanly using **WhiteNoise**.
+
+#### Render Service Settings:
+* **Build Command**:
+  ```bash
+  pip install -r requirements.txt && python backend/manage.py collectstatic --no-input && python backend/manage.py migrate
+  ```
+* **Start Command**:
+  ```bash
+  gunicorn --chdir backend config.wsgi:application
+  ```
+
+#### Required Render Environment Variables:
+| Variable Name | Description | Example / Recommended Value |
+|---|---|---|
+| `DJANGO_SECRET_KEY` | Completely new production secret key. Do not reuse the development secret. | *[Generate a random secret]* |
+| `DEBUG` | Disables debug mode in production. | `False` |
+| `DJANGO_ALLOWED_HOSTS` | Comma-separated list of allowed hostnames (domain of your backend). | `your-backend.onrender.com` |
+| `DATABASE_URL` | PostgreSQL connection URL. | *[Automatically populated when Render PostgreSQL is attached]* |
+| `CORS_ALLOWED_ORIGINS` | Comma-separated allowed frontend origins. | `https://cine-plux.vercel.app` |
+| `CSRF_TRUSTED_ORIGINS` | Comma-separated trusted origins for CSRF checks. | `https://cine-plux.vercel.app` |
+
 ---
 
 ## License

@@ -23,3 +23,7 @@ browser/
 task.md
 walkthrough.md
 implementation_plan.md
+
+# Django Static Files
+backend/staticfiles/
+
