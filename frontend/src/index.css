@@ -215,7 +215,7 @@ p {
   justify-content: center;
   min-height: 100vh;
   padding: 20px;
-  background-image: linear-gradient(rgba(10, 11, 14, 0.75), rgba(10, 11, 14, 0.85)), url('/login_bg.png');
+  background-image: linear-gradient(rgba(10, 11, 14, 0.75), rgba(10, 11, 14, 0.85)), url('/images/login_bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -378,7 +378,7 @@ p {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(rgba(10, 11, 14, 0.88), rgba(10, 11, 14, 0.94)), url('/dashboard_bg.png');
+  background-image: linear-gradient(rgba(10, 11, 14, 0.88), rgba(10, 11, 14, 0.94)), url('/images/dashboard_bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
