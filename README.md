@@ -19,7 +19,7 @@ Successfully deployed the Frontend on Vercel and Backend on Render
 - **Framework**: Django REST Framework (DRF)
 - **Authentication**: `djangorestframework-simplejwt`
 - **CORS Management**: `django-cors-headers`
-- **Database**: SQLite (local development)
+- **Database**: SQLite (local development),PostgreSQL (production)
 - **User System**: Django built-in `User` model with PBKDF2 password hashing
 
 ### Frontend
