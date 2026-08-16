@@ -218,7 +218,7 @@ This project was developed as part of the IPlus Training program at Christ Colle
 
 ## 👤 Author
 
-**G Varun**
+**G VARUN**
 
 *S3 CS-C*
 
